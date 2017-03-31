@@ -1,9 +1,6 @@
 ﻿Imports Telerik.WinControls.UI
 
 Public Class FrmCalcNotes
-    Private Sub FrmCalcNotes_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
 
     Private Sub CalcNotesRadButton_Click(sender As Object, e As EventArgs) Handles CalcNotesRadButton.Click
         CalculateAverage(RadRadioButtonSwitch)
@@ -28,6 +25,7 @@ Public Class FrmCalcNotes
 
         End If
     End Sub
+
     Private Sub ValidateNotesWithSelectCase()
         Select Case GetResultNotes()
             Case 90 To 100
@@ -40,6 +38,8 @@ Public Class FrmCalcNotes
                 MessageBox.Show($"Resultado de calificacion F")
         End Select
     End Sub
+
+#Region "ValidateNotes"
     Private Sub ValidateNotesWithSimpleIf()
         Dim result As Int32 = GetResultNotes()
 
@@ -79,5 +79,6 @@ Public Class FrmCalcNotes
         result = n1 + n2 + n3 + n4 + n5
         Return (result / 5)
     End Function
+#End Region
 
 End Class
