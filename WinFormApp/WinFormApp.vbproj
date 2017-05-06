@@ -78,6 +78,31 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asignatura.vb" />
+    <Compile Include="CalcularIndiceAcademico.Designer.vb">
+      <DependentUpon>CalcularIndiceAcademico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CalcularIndiceAcademico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiferentDates.Designer.vb">
+      <DependentUpon>DiferentDates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DiferentDates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm1To25And40To1.Designer.vb">
+      <DependentUpon>Frm1To25And40To1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm1To25And40To1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAreaCilindro.Designer.vb">
+      <DependentUpon>FrmAreaCilindro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAreaCilindro.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmAreaTriangulo.Designer.vb">
       <DependentUpon>FrmAreaTriangulo.vb</DependentUpon>
     </Compile>
@@ -103,6 +128,30 @@
     <Compile Include="FrmEcuacionPrimerGrado.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmEntrada.Designer.vb">
+      <DependentUpon>FrmEntrada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEntrada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFactorial.Designer.vb">
+      <DependentUpon>FrmFactorial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFactorial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFibonacci.Designer.vb">
+      <DependentUpon>FrmFibonacci.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFibonacci.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGeneralFormula.Designer.vb">
+      <DependentUpon>FrmGeneralFormula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGeneralFormula.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmHomeApp.Designer.vb">
       <DependentUpon>FrmHomeApp.vb</DependentUpon>
     </Compile>
@@ -115,10 +164,34 @@
     <Compile Include="FrmImpares1A400.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmMatriz.Designer.vb">
+      <DependentUpon>FrmMatriz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMatriz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMCM.Designer.vb">
+      <DependentUpon>FrmMCM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMCM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNumPrimo200To1.Designer.vb">
+      <DependentUpon>FrmNumPrimo200To1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNumPrimo200To1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmOperacionesBasicas.Designer.vb">
       <DependentUpon>FrmOperacionesBasicas.vb</DependentUpon>
     </Compile>
     <Compile Include="FrmOperacionesBasicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOperacionesNumeroFraccionario.Designer.vb">
+      <DependentUpon>FrmOperacionesNumeroFraccionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOperacionesNumeroFraccionario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmPares1A200.Designer.vb">
@@ -150,6 +223,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CalcularIndiceAcademico.resx">
+      <DependentUpon>CalcularIndiceAcademico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiferentDates.resx">
+      <DependentUpon>DiferentDates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm1To25And40To1.resx">
+      <DependentUpon>Frm1To25And40To1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAreaCilindro.resx">
+      <DependentUpon>FrmAreaCilindro.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmAreaTriangulo.resx">
       <DependentUpon>FrmAreaTriangulo.vb</DependentUpon>
     </EmbeddedResource>
@@ -162,14 +247,38 @@
     <EmbeddedResource Include="FrmEcuacionPrimerGrado.resx">
       <DependentUpon>FrmEcuacionPrimerGrado.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmEntrada.resx">
+      <DependentUpon>FrmEntrada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFactorial.resx">
+      <DependentUpon>FrmFactorial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFibonacci.resx">
+      <DependentUpon>FrmFibonacci.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGeneralFormula.resx">
+      <DependentUpon>FrmGeneralFormula.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmHomeApp.resx">
       <DependentUpon>FrmHomeApp.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmImpares1A400.resx">
       <DependentUpon>FrmImpares1A400.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMatriz.resx">
+      <DependentUpon>FrmMatriz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMCM.resx">
+      <DependentUpon>FrmMCM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNumPrimo200To1.resx">
+      <DependentUpon>FrmNumPrimo200To1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmOperacionesBasicas.resx">
       <DependentUpon>FrmOperacionesBasicas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOperacionesNumeroFraccionario.resx">
+      <DependentUpon>FrmOperacionesNumeroFraccionario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPares1A200.resx">
       <DependentUpon>FrmPares1A200.vb</DependentUpon>
@@ -196,6 +305,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formula.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
